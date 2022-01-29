@@ -9,8 +9,8 @@
   
 
   ## Screenshot of application
-   ![Screenshot1](../src/images/port-image1.png)
-   ![Screenshot2](../src/images/port-image2.png)
+   ![Screenshot1](./src/images/port-image1.png)
+   ![Screenshot2](./src/images/port-image2.png)
   
   ## Table of Contents
   - [Installation](#installation)
