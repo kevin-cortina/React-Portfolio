@@ -3,10 +3,12 @@
   # React Portfolio
   
   ## Description
+  This is my portfolio made in react. I have attached 6 projects to this portfolio along with a contact me section and updated social medias at the bottom. 
+  
 
-  
   ## Deployed Application
-  
+  https://kevin-cortina.github.io/ract-port-2/  
+
 
   ## Screenshot of application
    ![Screenshot1](./src/images/port-image1.png)
@@ -23,7 +25,7 @@
   - [Questions](#questions)
  
   ## Installation
-
+  Feel free to install. When you download make sure to `NPM I` to get all the dependencies needed to view. Then `NPM START` to view it locally.
 
   ## Contributing
   Feel free to add or change any code.
