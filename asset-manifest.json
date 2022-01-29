@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/ract-port-2/static/css/main.b559e582.css",
+    "main.js": "/ract-port-2/static/js/main.8bc1ef3a.js",
+    "static/js/787.12e7f510.chunk.js": "/ract-port-2/static/js/787.12e7f510.chunk.js",
+    "static/media/EMS-app.png": "/ract-port-2/static/media/EMS-app.4887bffa11cdefa3fb68.png",
+    "static/media/ECOM.png": "/ract-port-2/static/media/ECOM.8f7f2252df1fc1215125.png",
+    "static/media/download-(1).png": "/ract-port-2/static/media/download-(1).d35ac44cc17717cd57ea.png",
+    "static/media/FTSC.png": "/ract-port-2/static/media/FTSC.ffeb5e53dcfe3dedeeaf.png",
+    "static/media/note-taker-app.png": "/ract-port-2/static/media/note-taker-app.c36d2154c96dd2e0ede7.png",
+    "static/media/weatherdash-sc.jpeg": "/ract-port-2/static/media/weatherdash-sc.70b5ef7460d5a17bbf9b.jpeg",
+    "static/media/groupproject2.jpeg": "/ract-port-2/static/media/groupproject2.061a202e7b90e2fae98c.jpeg",
+    "static/media/logo.svg": "/ract-port-2/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/ract-port-2/index.html",
+    "main.b559e582.css.map": "/ract-port-2/static/css/main.b559e582.css.map",
+    "main.8bc1ef3a.js.map": "/ract-port-2/static/js/main.8bc1ef3a.js.map",
+    "787.12e7f510.chunk.js.map": "/ract-port-2/static/js/787.12e7f510.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b559e582.css",
+    "static/js/main.8bc1ef3a.js"
+  ]
+}
