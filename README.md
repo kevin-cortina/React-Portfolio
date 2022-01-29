@@ -36,7 +36,7 @@
   
 
   ## Features
-  MongoDB, MongoDBAtlas, Heroku
+  This application solely uses React on the front-end without any back end to it. The purpose of this is to show my ability on how to use react/design react and to showcase some project i've done over the past 6 months.
   
   ## Tests
   N/A
