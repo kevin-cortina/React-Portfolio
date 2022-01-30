@@ -11,7 +11,7 @@
 
 
   ## Screenshot of application
-   ![Screenshot1](./src/images/ReactSC.png)
+   ![Screenshot1](./src/images/ReactSc.png)
    ![Screenshot2](./src/images/port-image2.png)
   
   ## Table of Contents
