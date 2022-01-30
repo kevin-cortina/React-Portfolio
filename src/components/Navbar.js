@@ -1,36 +1,42 @@
 import React from 'react';
-import { Navbar } from 'react-bootstrap';
-// Here we are importing a CSS file as a dependency
+// Here we are importing button CSS file as button dependency
 // import '../styles/Header.css';
-import Resume from '../images/download-(1).png'
-import ContactMe from './ContactMe';
+// import Resume from '../images/download-(1).png'
+// import ContactMe from './ContactMe';
+import AboutMe  from './AboutMe'
+import Contact from './Contact';
 
+export default function Navbars ( { currentPage, handlePageChange }) {
 
-
-function Navbars () {
   return (  
-    <Navbar bg="dark" variant="dark">
+    <nav>
 <div className="navBar-section"> 
         <div className="nav-section">
-        <Navbar.Brand className="card">
-        <a id="portfolio-navigation" href="#about-me-header"> About me</a>
-        </Navbar.Brand>
-        <Navbar.Brand className="card">
-        <a id="portfolio-navigation" href="#Contact information"> Contact me</a>
-        </Navbar.Brand>
-        <Navbar.Brand className="card">
-        <a id="portfolio-navigation" href="#project-1"> Projects</a>
-        </Navbar.Brand>
-        <Navbar.Brand className="card">
-        <a id="portfolio-navigation" href={Resume}> Resume</a>
-        </Navbar.Brand>
-        <Navbar.Brand className="card">
-        <a id="portfolio-navigation" href="#Contact information"> Leave a Message</a>
-        
-        </Navbar.Brand>
+        <li className="card">
+        <a id="AboutMe" href='#AboutMe' 
+        onClick={({AboutMe}) => handlePageChange('AboutMe')} 
+        className={currentPage === 'AboutMe' ? 'currentPage' : ''}
+        > About me</a>
+        </li>
+        <li className="card">
+        <a id="ContactMe" href='#Contacts' 
+        onClick={( {Contact} ) => handlePageChange('Contacts')} 
+        className={currentPage === 'Contacts'? 'currentPage' : ''}
+        > Contact me</a>
+        </li>
+        <li className="card">
+        <a id="ProjectMe" href="#ProjectMe" 
+        onClick={() => handlePageChange('Projects')} 
+        className={currentPage === 'Projects' ? 'currentPage' : ''}
+        > Projects</a>
+        </li>
+        <li className="card">
+        <a id="ResumeMe" href="#ResumeMe" 
+        onClick={() => handlePageChange('Resume')} 
+        className={currentPage === 'Resume'? 'currentPage' : ''}
+        > Resume</a>
+        </li>
     </div>
 </div>
-</Navbar>
-  );
-}
-    export default Navbars;
+</nav>
+  )};

@@ -1,7 +1,3 @@
- /* Background Color of webpage
- .head {
-  background-color: black;
-  }
 
  /*Developer name and box */ 
   header h1{
@@ -21,6 +17,11 @@
 
   h2#about-me-container {
     margin-top: 50px;
+  }
+
+  h2#about-me-header{
+    margin-top: 300px;
+    display: block;
   }
 
 
@@ -46,21 +47,45 @@
   }
 
   div.navBar-section {
-  text-decoration:none;
   color:white;
-  margin-left:20%;
-  float:center;
+  /* margin-left: 15%; */
+  /* margin-right: 15%; */
+  margin-bottom: 40px;
+  /* margin-top: 35px;  */
+  float:left;
   min-width: 70%;
-  width: auto;
-  display:flex;
-  padding-bottom: 20px;
-
+  width: 100%;
+  padding-bottom: 40px;
+  display: center;
+  padding: 10px;
+  border: 1px solid rgb(214, 214, 214);
+  font-size: 25px;
   }
 
-  a#portfolio-navigation {
+  div.nav-section {
+    display: center;
+    font: red;
+  }
+
+  .nav-section li {
+    display: inline;
+    float: left;
+    margin-left: 5%;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.nav-section li:visited {
+  color: rgb(255, 255, 255);
+}
+
+li.card {
+  margin-right: 10px;
+}
+  /* a#portfolio-navigation {
     margin: 10px;
     font-size: 250%;
-  }
+  } */
 
   span.card.navbar-brand{
     justify-content: space-between 50px;
@@ -161,23 +186,36 @@
  /*style code for box that holds text over images*/
   section #project-header{
   position: relative;
-  top:50px;
+  /* top:50px; */
   right: 20px;
   background-color: black;
   color: white;
   padding-left: 05px;
   padding-right: 20px;
-  max-width:80px;
+  /* max-width:80px; */
   border-style:double;
   text-align:left;
   border-radius:5px;
   box-shadow:5px 2px 6px whitesmoke;
   }
 
+  h4#project-header-main {
+    /* margin-top: 50px; */
+    /* position: bottom; */
+    display:inline-block;
+    height: 30px;
+    /* padding-top: 100px; */
+    width: 98%;
+    border-style:double;
+    text-align:left;
+    border-radius:5px;
+    box-shadow:5px 2px 6px whitesmoke;
+  }
+
   /*style code for the text over images */
   h4#project-header{
-   max-width:80px;
-   width:80px;
+   /* max-width:80px;
+   width:80px; */
    margin-left: 30px;   
  }
 

@@ -14,7 +14,7 @@ function Projects () {
   return (  
 <section className="projects-box-section">
     <section id="project-1">
-        <h4 id="project-header"> Note Taker</h4>
+        <h4 id="project-header-main"> Note Taker</h4>
         <section>
             <a href="https://github.com/kevin-cortina/Note-taker-new"> <img href="https://github.com/kevin-cortina/Daily_Calendar class=" className="Port-img-3" src={project1} alt="PLACE HOLDER 1" style ={pictureWidth} />
             </a>
