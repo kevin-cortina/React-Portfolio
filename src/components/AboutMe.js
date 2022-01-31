@@ -1,5 +1,5 @@
 import React from 'react';
-import profilePic from '../images/placeholder-img.jpeg';
+import profilePic from '../images/pic-3.jpg';
 import Footer from './Footer';
 
 function AboutMe () {
